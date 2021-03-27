@@ -1,9 +1,3 @@
-variable "token" {
-  type        = string
-  description = "Account's token"
-  sensitive   = true
-}
-
 variable "resource_name" {
   type        = string
   description = "default name for resources to be created"

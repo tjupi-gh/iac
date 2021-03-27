@@ -8,10 +8,6 @@ terraform {
   required_version = "~> 0.14"
 }
 
-provider "digitalocean" {
-  token = var.token
-}
-
 resource "digitalocean_container_registry" "cr" {
   name                   = var.resource_name
   subscription_tier_slug = var.subscription_tier_slug

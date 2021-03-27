@@ -12,10 +12,6 @@ terraform {
   required_version = "~> 0.14"
 }
 
-provider "digitalocean" {
-  token = var.token
-}
-
 data "digitalocean_kubernetes_versions" "k8s_versions" {
   version_prefix = "1.20."
 }

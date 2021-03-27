@@ -9,3 +9,9 @@ variable "resource_name" {
   description = "default name for resources to be created"
   default     = "learning"
 }
+
+variable "nodes_count" {
+  type        = number
+  description = "Workers number"
+  default     = 1
+}
