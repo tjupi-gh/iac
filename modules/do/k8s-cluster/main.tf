@@ -9,7 +9,6 @@ terraform {
       version = "2.0.2"
     }
   }
-  required_version = "~> 0.14"
 }
 
 data "digitalocean_kubernetes_versions" "k8s_versions" {
